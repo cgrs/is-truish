@@ -11,7 +11,7 @@ npm i is-truish
 # Usage
 
 ```js
-const isTruish = require("is-truish");
+import isTruish from 'is-truish';
 
 const value = "yes";
 
