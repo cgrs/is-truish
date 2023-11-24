@@ -1,10 +1,14 @@
 {
   "name": "is-truish",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "converts a somewhat true-ish expression to the equivalent boolean value",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "ava"
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "20"
   },
   "repository": {
     "type": "git",
@@ -13,15 +17,13 @@
   "keywords": [
     "is-true",
     "is-truish",
-    "one-liner"
+    "one-liner",
+    "zero-dependencies"
   ],
   "author": "carlos gonzález <cgrs@users.noreply.github.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/cgrs/is-truish/issues"
   },
-  "homepage": "https://github.com/cgrs/is-truish#readme",
-  "devDependencies": {
-    "ava": "^3.15.0"
-  }
+  "homepage": "https://github.com/cgrs/is-truish#readme"
 }
