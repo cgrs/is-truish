@@ -1,6 +1,6 @@
 {
   "name": "is-truish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "converts a somewhat true-ish expression to the equivalent boolean value",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,7 @@
     "test": "node --test"
   },
   "engines": {
-    "node": "20"
+    "node": ">=20"
   },
   "repository": {
     "type": "git",
